@@ -1,0 +1,7 @@
+<h1>Books#new</h1>
+<p>Find me in app/views/books/new.html.erb</p>
+<%= form_for Book.new do |f| %>
+	<%= f.label :title %> <br/>
+	<%= f.text_field :title %>
+	<%= f.submit 'Save Book' %>
+<% end %>
